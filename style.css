@@ -255,8 +255,10 @@
     font-weight:700;
   }
   .venue-name{ font-weight:700; color:var(--wine); }
-  /* .map-link{
-    display:inline-flex;
+   a.map-link{
+    text-decoration: none;
+   }
+/*    display:inline-flex;
     align-items:center;
     gap:6px;
     margin-top:10px;
