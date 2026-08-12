@@ -7,7 +7,8 @@ document.getElementById('groomName').textContent = CONFIG.groomName;
 document.getElementById('dateDisplay').textContent = CONFIG.dateDisplay;
 document.getElementById('timeDisplay').textContent = CONFIG.timeDisplay;
 document.getElementById('venueName').textContent = CONFIG.venueName;
-document.getElementById('venueCity').textContent = CONFIG.venueCity;
+document.getElementById('venueName2').textContent = CONFIG.venueName2;
+// document.getElementById('venueCity').textContent = CONFIG.venueCity;
 document.getElementById('mapLink').href =
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CONFIG.venueMapQuery)}`;
 
